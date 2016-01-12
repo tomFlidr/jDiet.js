@@ -160,9 +160,15 @@ Function.prototype.bind()
   // and as callback you need to call any method in your class, you can do so:
 
 jDiet.ajax({
-	uri: "?anything",
-	success: function () {
-	   this.callbackInsideMyClass()
-	}.bind(this)
- });
+	// mandatory params
+	uri: "?anything", 		// string
+	// optional params:
+	async: true, 			// boolean, true as default
+	data: {}, 				// object to bee stringified
+	method: 'POST', 		// string, 'GET' as default 
+	success: function(){}	// function called when everything is fine
+	error: function(){}		// function called in exception
+	headers: {}, 			// key value object with headers to be sent
+	cache: false			// boolean, false as default
+});
 ```
