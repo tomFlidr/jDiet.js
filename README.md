@@ -6,7 +6,9 @@ jDiet.js
 ```
 <script src="https://raw.githubusercontent.com/tomFlidr/jDiet.js/master/jDiet.min.js"></script> 
 ```
-Tiny browser Javascript framework for nerds, exhausted by corpulent jQuery, syntax based on jQuery, min. and gzip.: 7.23 KB, JIT
+Tiny client JS framework for nerds, exhausted by corpulent jQuery, syntax based on jQuery, min. and gzip.: 7.23 KB, JIT
+[Archived Google code project](https://code.google.com/p/jdiet-js/)
+
 
 ## jDiet Mission
 - create very fast and comfort framework to develop frontend JS features (supporting IE6+ with JScript syntax)
