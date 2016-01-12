@@ -4,7 +4,8 @@ jDiet.js
 * [jDiet.min.js download](https://raw.githubusercontent.com/tomFlidr/jDiet.js/master/jDiet.min.js)
 
 ```
-<script src="https://raw.githubusercontent.com/tomFlidr/jDiet.js/master/jDiet.min.js"></script> 
+<script src="https://raw.githubusercontent.com/tomFlidr/jDiet.js/master/jDiet.min.js" type="text/javascript">
+</script> 
 ```
 Tiny client JS framework for nerds, exhausted by corpulent jQuery, syntax based on jQuery, min. and gzip.: 7.23 KB, JIT
 [Archived Google code project](https://code.google.com/p/jdiet-js/)
