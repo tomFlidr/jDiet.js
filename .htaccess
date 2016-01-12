@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+
+	# JS Deployer
+	RewriteEngine On
+	
+	# to enable owerwrite force mode - coment two lines bellow
+	RewriteCond %{SCRIPT_FILENAME} !-f
+	RewriteCond %{SCRIPT_FILENAME} !-d
+	
+	RewriteRule jDiet .jsdeployer.php [QSA,L]
+	
+</IfModule>
