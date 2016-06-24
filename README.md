@@ -4,8 +4,7 @@ jDiet.js
 * [jDiet.min.js download](https://raw.githubusercontent.com/tomFlidr/jDiet.js/master/jDiet.min.js)
 
 ```
-<script src="https://raw.githubusercontent.com/tomFlidr/jDiet.js/master/jDiet.min.js" type="text/javascript">
-</script> 
+<script src="https://raw.githubusercontent.com/tomFlidr/jDiet.js/master/jDiet.min.js"></script> 
 ```
 Tiny client JS framework for nerds, exhausted by corpulent jQuery, syntax based on jQuery, min. and gzip.: 7.23 KB, JIT
 [Archived Google code project](https://code.google.com/p/jdiet-js/)
@@ -15,7 +14,7 @@ Tiny client JS framework for nerds, exhausted by corpulent jQuery, syntax based 
 - create very fast and comfort framework to develop frontend JS features (supporting IE6+ with JScript syntax)
 - create small library as much as possible under limits: minimized and gziped to max 5 - 10 KB
 - create cool library with the same method names from jQuery (to not learn anything new to start using it)
-- create library supporting JIT - [Just Tn Time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation)
+- create library supporting JIT - [Just In Time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation)
 
 ### jDiet Syntax
 Syntax is based mostly on jQuery framework (with something more and less).
