@@ -3,7 +3,7 @@ jDiet.js
 
 * [jDiet.min.js download](https://raw.githubusercontent.com/tomFlidr/jDiet.js/master/jDiet.min.js)
 
-```
+```html
 <script src="https://raw.githubusercontent.com/tomFlidr/jDiet.js/master/jDiet.min.js"></script> 
 ```
 Tiny client JS framework for nerds, exhausted by corpulent jQuery, syntax based on jQuery, min. and gzip.: 7.23 KB, JIT
@@ -22,11 +22,11 @@ It is possible to replace jQuery with jDiet, if you are using jDiet methods only
 
 #### The supersmart object for whole universe, when u use this framework is just:
 
-```
+```javascript
 jDiet
 ```
 
-```
+```javascript
 // You can use dollar(s) as usual:
 var $ = jDiet;
 // Or:
@@ -35,7 +35,7 @@ var $$ = jDiet;
 
 #### Selectors to create jDiet element object
 
-```
+```javascript
 jDiet('#element-id')
 jDiet('.element-class')
 jDiet('.one.more')
@@ -59,7 +59,7 @@ jDiet('a, .other').children('span.bold') ...
 
 #### Available methods for jDiet Element object
 
-```
+```javascript
 .children(selector)
 .parent(selector - optional)
 .each(function)
@@ -92,7 +92,7 @@ jDiet('a, .other').children('span.bold') ...
 ```
 
 #### Events
-```
+```javascript
 jDiet("a.js-click").bind('mouseover,focus', function (e) {
 	// this - means scope of "a.js-click" element - all browsers
 	// e.preventDefault() - all browsers
@@ -103,7 +103,7 @@ jDiet("a.js-click").bind('mouseover,focus', function (e) {
 
 #### Animation easing
 (possible to use easing jquery plugin, interface is the same)
-```
+```javascript
 "easeIn"
 "easeOut"
 "easeInOut"
@@ -114,7 +114,7 @@ jDiet("a.js-click").bind('mouseover,focus', function (e) {
 ```
 
 #### jDiet static features
-```
+```javascript
 jDiet.browser // see your self (browser names and versions)
 jDiet.ajax // see help by calling jDiet.ajax() - without any params
 jDiet.typeOf // get javascript real type
@@ -126,7 +126,7 @@ jDiet.FRAMERATE // framerate to change all jDiet running animations, 20 by defau
 ```
 
 #### Goodies
-```
+```javascript
 jDiet(document).ready(function(){
   // you know what is this place:-)
 });
