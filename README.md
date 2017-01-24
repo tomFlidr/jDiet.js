@@ -14,7 +14,6 @@ Tiny client JS framework for nerds, exhausted by corpulent jQuery, syntax based 
 - create very fast and comfort framework to develop frontend JS features (supporting IE6+ with JScript syntax)
 - create small library as much as possible under limits: minimized and gziped to max 5 - 10 KB
 - create cool library with the same method names from jQuery (to not learn anything new to start using it)
-- create library supporting JIT - [Just In Time compilation](https://en.wikipedia.org/wiki/Just-in-time_compilation)
 
 ### jDiet Syntax
 Syntax is based mostly on jQuery framework (with something more and less).
