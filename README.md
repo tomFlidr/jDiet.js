@@ -1,11 +1,9 @@
 jDiet.js
 ========
 
-* [jDiet.js download](https://tomflidr.github.io/jDiet.js/latest/jDiet.js)
 * [jDiet.min.js download](https://tomflidr.github.io/jDiet.js/latest/jDiet.min.js)
 
 ```html
-<script type="text/javascript" src="https://tomflidr.github.io/jDiet.js/latest/jDiet.js"></script> 
 <script type="text/javascript" src="https://tomflidr.github.io/jDiet.js/latest/jDiet.min.js"></script> 
 ```
 Tiny client JS framework for nerds, exhausted by corpulent jQuery, syntax based on jQuery, min. and gzip.: 7.23 KB, JIT
