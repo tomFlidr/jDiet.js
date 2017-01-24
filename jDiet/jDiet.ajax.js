@@ -94,7 +94,7 @@ jDiet.local.setUpXhrObject = function ()
 jDiet.local.setUpXhrObject();
 
 // include json2
-if(!this.JSON){JSON=function(){function f(n){return n<10?'0'+n:n;}
+if(!window.JSON){window.JSON=function(){function f(n){return n<10?'0'+n:n;}
 Date.prototype.toJSON=function(){return this.getUTCFullYear()+'-'+
 f(this.getUTCMonth()+1)+'-'+
 f(this.getUTCDate())+'T'+
